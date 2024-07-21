@@ -3,8 +3,8 @@
     border: 0;
     margin: 0;
 }
-    html {
-        scroll-behavior: smooth;
+ html {
+     scroll-behavior: smooth;
       }
     *{
         border: 0;
@@ -12,46 +12,46 @@
         padding: 0;
     }
     
-    body, html{ margin:0; 
-                padding:0;
+ body, html{ margin:0; 
+             padding:0;
     }
-    .navbar{ 
+ .navbar{ 
         height:80px; 
         width:100%; 
         background:#333;
         color:white;
         text-align:center
     }
-    .wrapper{ height:2000px;
+.wrapper{ height:2000px;
         width:100%;
         padding-top:20px
     }
     
-    .fixed{
+.fixed{
         position:fixed;
          top:0
     }
-    body {
+body {
         font-family: 'Raleway', sans-serif;
         font-size: 16px;
         font-weight: 300;
         background-color: #000000 !important;
         color: #ffffff;
     }
-    nav {
+nav {
         background-color:#219ca7;
         position: relative;
         font-weight: 400;
     }
-    .header {
+.header {
         position: relative;
         overflow: hidden;
     }
-    .navbar-brand img{
+.navbar-brand img{
         height: 3.3rem;
         padding-left: 1rem;
     }
-    .carousel-item {
+.carousel-item {
         height: 650px;
         width: 100%;
         min-height: 300px;
@@ -61,7 +61,7 @@
         -o-background-size: cover;
         background-size: cover;
       }
-      .card-columns .card {
+.card-columns .card {
         display: inline-block;
         width: 100%;
       }
@@ -121,8 +121,12 @@
             display: none; 
         }
     }
+    .columna img{
+        height: calc(100% - "XXpx"); 
+      }
     #favicon {
         color: white;
+        height: calc(100% - XXpx); 
         background-color: #0dcaf0;
         width: 26rem;
         height: 2.5rem;
